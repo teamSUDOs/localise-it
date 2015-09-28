@@ -1,0 +1,22 @@
+include ../content/dropdown
+
+#add-panel
+    .input-field-group.col-md-12.col-xs-12
+        #add-key-panel
+            .col-md-10.col-sm-10.col-xs-12
+                input#add-key-input.form-control(type="text", placeholder="Add key")
+                input#add-translation-input.form-control(type="text", placeholder="Add default english translation")
+            
+            .add-key-panel-action-buttons.col-md-2.col-sm-2.col-xs-12
+                button#approve-add-key-button(type="button")
+                    span.glyphicon.glyphicon-ok
+                button#add-panel-cancel-button(type="button")
+                    span.glyphicon.glyphicon-remove
+        //-#add-locale-panel.hidden
+            input#add-locale-input.form-control(type="text", placeholder="Add locale")
+            
+            .add-locale-panel-action-buttons.col-md-2.col-sm-2.col-xs-12
+                button#approve-add-locale-button(type="button")
+                    span.glyphicon.glyphicon-ok
+                button#add-panel-cancel-button(type="button")
+                    span.glyphicon.glyphicon-remove
